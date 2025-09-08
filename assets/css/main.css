@@ -10,17 +10,17 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
-  --background-color: #786c5f;
+  --background-color: #e3e366;
   /* Background color for the entire website, including individual sections */
-  --default-color: #ffffff;
+  --default-color: #310606;
   /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #ffffff;
+  --heading-color: #310606;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #ececec;
+  --accent-color: #232323;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #232323;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #310606;
+  --contrast-color: #ffffff;
   /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -697,8 +697,8 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--surface-color);
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: var(--contrast-color);
+  background: var(--accent-color);
   border-radius: 50%;
   font-size: 20px;
   transition: all 0.3s ease;
@@ -1402,7 +1402,7 @@ section,
 .resume .resume-side h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: var(--heading-color);
+  color: var(--contrast-color);
   font-weight: 600;
 }
 
